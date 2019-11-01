@@ -44,18 +44,6 @@ class Backend extends Component {
 
               <p style={{ color: "#E5E9F0" }}>Express</p>
             </div>
-            <div
-              style={{
-                display: "inline-block",
-                padding: "20px"
-              }}
-            >
-              <img
-                src="https://sailsjs.com/images/logos/sails-logo_ltBg_ltBlue.png"
-                height="100px"
-              />
-              <p style={{ color: "#E5E9F0" }}>SailsJs</p>
-            </div>
           </div>
         </div>
       </div>
