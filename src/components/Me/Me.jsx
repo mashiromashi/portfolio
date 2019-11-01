@@ -26,18 +26,19 @@ class Me extends Component {
           style={{ color: "#D8DEE9", fontSize: "17px" }}
         >
           <p>Hello, my name's Cliff.</p>
-          <p>I'm 22 years old and a self-taught developer.</p>
+          <p>I'm 23 years old now and a self-taught developer.
+            I have been in this industry for almost a year. So I know my way around pretty well.</p>
           <p>
             I am looking for a job, please hire me to do your awesome website
             for your blooming business
           </p>
           <p>
             Since I'm passionate about technology, I'm always striving to learn
-            new stuffs. Which is why you can hire me with ease of mind.
+            new stuffs, which is why you can hire me with ease of mind.
           </p>
         </div>
         <p className='right-align' style={{ color: "#D8DEE9" }}>
-          take a peek at my skills to see what I am capable of
+          take a peek at my skills to see what I am capable of...
         </p>
       </div>
     );
