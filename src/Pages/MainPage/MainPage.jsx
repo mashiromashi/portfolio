@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Skills from "../../components/Skills/Skills";
 import Me from "../../components/Me/Me";
+import Works from "../../components/works/works";
 
 class MainPage extends Component {
   render() {
@@ -13,14 +14,7 @@ class MainPage extends Component {
           <Skills />
         </section>
         <section id='works' className='section scrollspy'>
-          <div className='flow-text center-align'>
-            <p>Site under construction</p>
-            <img
-              className='responsive-img'
-              src='https://cdn.dribbble.com/users/1791559/screenshots/4465351/wip.gif'
-              alt=''
-            />
-          </div>
+          <Works />
         </section>
         <section id='contactMe' className='section scrollspy'>
           <div className='col s12 m6 l4 center-align'>
