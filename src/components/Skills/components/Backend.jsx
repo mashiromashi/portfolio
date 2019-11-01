@@ -39,6 +39,7 @@ class Backend extends Component {
                 <img
                   src="https://seeklogo.com/images/E/express-js-logo-FA36FF1D3F-seeklogo.com.png"
                   height="40px"
+                  alt=""
                 />
               </div>
 
