@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Skills from "../../components/Skills/Skills";
 import Me from "../../components/Me/Me";
-import Works from "../../components/works/works";
+import Works from "../../components/Works/Works";
 
 class MainPage extends Component {
   render() {
