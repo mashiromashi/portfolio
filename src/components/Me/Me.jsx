@@ -5,7 +5,9 @@ class Me extends Component {
   render() {
     return (
       <div>
-        <div className='col s12 center-align'>
+
+
+        <div className='col s12 center-align' style={{ marginTop: "5%" }}>
           <div
             className='responsive-img center-align'
             style={{
@@ -19,6 +21,11 @@ class Me extends Component {
               margin: "auto"
             }}
           />
+          <div style={{ fontSize: "3rem" }} >
+            <a href="https://github.com/mashiromashi" style={{ color: "#D8DEE9" }}>
+              <i className="fab fa-github" />
+            </a>
+          </div>
         </div>
 
         <div
