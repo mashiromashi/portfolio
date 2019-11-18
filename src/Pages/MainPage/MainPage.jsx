@@ -2,28 +2,23 @@ import React, { Component } from "react";
 import Skills from "../../components/Skills/Skills";
 import Me from "../../components/Me/Me";
 import Works from "../../components/Works/Works";
+import ContactMe from "../../components/ContactMe/ContactMe";
 
 class MainPage extends Component {
   render() {
     return (
-      <div className='container'>
-        <section id='me'>
+      <div className='container' >
+        <section id='me' >
           <Me />
         </section>
-        <section id='skills' className='section scrollspy'>
+        <section id='skills' className='section scrollspy'  >
           <Skills />
         </section>
-        <section id='works' className='section scrollspy'>
+        <section id='works' className='section scrollspy' >
           <Works />
         </section>
-        <section id='contactMe' className='section scrollspy'>
-          <div className='col s12 m6 l4 center-align'>
-            <h4 style={{ color: "#E5E9F0", paddingBottom: "100px" }}>
-              To get in touch with me or just wanna drop by and say hi:
-            </h4>
-
-            <h5 style={{ color: "#E5E9F0" }}>htinwana.dev@gmail.com</h5>
-          </div>
+        <section id='contactMe' className='section scrollspy' >
+          <ContactMe />
         </section>
       </div>
     );
