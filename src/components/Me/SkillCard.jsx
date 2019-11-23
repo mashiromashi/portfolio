@@ -4,7 +4,7 @@ class SkillCard extends Component {
   state = {};
   render() {
     return (
-      <div className='col s12 m12 l8'>
+      <div className='col s12 m12 l8' style={{ marginTop: "1.5%" }}>
         <div className='card'>
           <div className='card-content'>
             <h5 style={{ fontSize: "2rem" }}>Skills</h5>

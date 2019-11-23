@@ -30,6 +30,26 @@ class MeCard extends Component {
             </div>
             <div className='card-content center-align'>
               <h5>Htin Wana, 23</h5>
+              <div
+                style={{
+                  fontSize: "2rem",
+                  marginRight: "10px",
+                  margin: "auto"
+                }}
+              >
+                <a
+                  href='https://github.com/mashiromashi'
+                  style={{ color: "#D8DEE9" }}
+                >
+                  <i className='fab fa-github' style={{ padding: "12px" }} />
+                </a>
+                <a
+                  href='https://www.linkedin.com/in/htinwana'
+                  style={{ color: "#D8DEE9" }}
+                >
+                  <i className='fab fa-linkedin' style={{ padding: "12px" }} />
+                </a>
+              </div>
               <p>
                 <i className='fa fa-map-marker-alt' /> Mandalay, Myanmar
               </p>
