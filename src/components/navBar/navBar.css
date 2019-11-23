@@ -1,13 +1,18 @@
-.navColor {
-  background-color: rgb(46, 52, 64);
+nav {
+  background-color: #4c566a !important  ;
+  box-shadow: none !important;
 }
-li a:hover:not(.active) {
-  background-color: rgba(216, 222, 233, 0.6);
+ul li a:hover:not(.active) {
+  background-color: rgba(143, 188, 187, 0.2) !important;
   color: white;
 }
 
-li.active {
-  background-color: #4c566a;
-  border-bottom: 2px solid #8fbcbb;
-  color : rgba(216, 222, 233, 0.2)
+ul li.active {
+  background-color: #4c566a !important;
+  border-bottom: 2px solid #8fbcbb !important;
+  color: rgba(216, 222, 233, 0.2);
+}
+
+nav ul li a:focus.active {
+  background-color: rgba(143, 188, 187, 0.2) !important;
 }
