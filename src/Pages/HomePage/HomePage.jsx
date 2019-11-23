@@ -46,13 +46,13 @@ class HomePage extends Component {
               href='https://github.com/mashiromashi'
               style={{ color: "#D8DEE9" }}
             >
-              <i className='fab fa-github' style={{ padding: "12px" }} />
+              <i className='fab fa-github' style={{ padding: "10px" }} />
             </a>
             <a
               href='https://www.linkedin.com/in/htinwana'
               style={{ color: "#D8DEE9" }}
             >
-              <i className='fab fa-linkedin' style={{ padding: "12px" }} />
+              <i className='fab fa-linkedin' style={{ padding: "10px" }} />
             </a>
           </div>
         </div>
