@@ -9,7 +9,9 @@ class NavBar extends Component {
           <div className="col s12">
             <ul className="tabs tabs-transparent ">
               <li className="tab">
-                <a href="#home">Home</a>
+                <a href="#home" className="active">
+                  Home
+                </a>
               </li>
               <li className="tab">
                 <a href="#me" id="meTab">
@@ -22,7 +24,7 @@ class NavBar extends Component {
                 </a>
               </li>
               <li className="tab ">
-                <a href="#contactMe" id="contactMeTab" className="active">
+                <a href="#contactMe" id="contactMeTab">
                   Contact Me
                 </a>
               </li>
