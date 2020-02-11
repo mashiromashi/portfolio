@@ -47,7 +47,9 @@ h5 {
 h6 {
   color: #e5e9f0;
 }
-
+small {
+  color: #e5e9f0;
+}
 #root {
   height: 100%;
 }

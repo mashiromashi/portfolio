@@ -1,0 +1,10 @@
+.contactMe {
+  display: block;
+  margin: auto;
+}
+.email {
+  display: grid;
+}
+.needHelp {
+  font-size: 15px;
+}

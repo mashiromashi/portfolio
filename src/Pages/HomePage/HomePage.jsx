@@ -9,17 +9,17 @@ class HomePage extends Component {
           style={{
             marginTop: "20%"
           }}
-          className='col s12 m12 l12 center-align'
+          className="col s12 m12 l12 center-align"
         >
           <div
-            className='responsive-img center-align'
+            className="responsive-img center-align"
             style={{
-              width: "200px",
-              height: "200px",
-              backgroundImage: "url(/img/IMG_8160.jpg)",
+              width: "300px",
+              height: "300px",
+              backgroundImage: "url(/img/MeAtTeaShop.jpg)",
               backgroundSize: "cover",
               borderRadius: "100%",
-              backgroundPosition: "right top",
+              backgroundPosition: "15% 15%",
               backgroundRepeat: "no-repeat",
               margin: "auto"
             }}
@@ -43,16 +43,16 @@ class HomePage extends Component {
             }}
           >
             <a
-              href='https://github.com/mashiromashi'
+              href="https://github.com/mashiromashi"
               style={{ color: "#D8DEE9" }}
             >
-              <i className='fab fa-github' style={{ padding: "10px" }} />
+              <i className="fab fa-github" style={{ padding: "10px" }} />
             </a>
             <a
-              href='https://www.linkedin.com/in/htinwana'
+              href="https://www.linkedin.com/in/htinwana"
               style={{ color: "#D8DEE9" }}
             >
-              <i className='fab fa-linkedin' style={{ padding: "10px" }} />
+              <i className="fab fa-linkedin" style={{ padding: "10px" }} />
             </a>
           </div>
         </div>

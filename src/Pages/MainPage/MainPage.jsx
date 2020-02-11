@@ -7,17 +7,17 @@ import MeCard from "../../components/Me/MeCard";
 class MainPage extends Component {
   render() {
     return (
-      <div className='container'>
-        <section id='home'>
+      <div className="container">
+        <section id="home">
           <HomePage />
         </section>
-        <section id='me'>
+        <section id="me">
           <MeCard />
         </section>
-        <section id='works' className='section scrollspy'>
+        <section id="works" className="section">
           <Works />
         </section>
-        <section id='contactMe' className='section scrollspy'>
+        <section id="contactMe" className="section">
           <ContactMe />
         </section>
       </div>
