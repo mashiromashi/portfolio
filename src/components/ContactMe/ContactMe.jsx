@@ -13,8 +13,8 @@ class ContactMe extends Component {
           Feel free to get in touch with me. I am always open to discussing new
           projects, creative ideas or opportunities to be part of your visions.
         </p>
-        <div className="col s6 m3 l2 " style={{ display: "grid" }}>
-          <div style={{ gridColumnStart: "1", gridColumnEnd: "2" }}>
+        <div className="col s6 m3 l2 gridDisplay">
+          <div className="gridItem">
             <p className="needHelp">Need Help?</p>
             <h5>htinwana.dev@gmail.com</h5>
           </div>

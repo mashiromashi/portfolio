@@ -7,23 +7,11 @@ class HomePage extends Component {
       <div>
         <div
           style={{
-            marginTop: "20%"
+            marginTop: "13%"
           }}
           className="col s12 m12 l12 center-align"
         >
-          <div
-            className="responsive-img center-align"
-            style={{
-              width: "300px",
-              height: "300px",
-              backgroundImage: "url(/img/MeAtTeaShop.jpg)",
-              backgroundSize: "cover",
-              borderRadius: "100%",
-              backgroundPosition: "15% 15%",
-              backgroundRepeat: "no-repeat",
-              margin: "auto"
-            }}
-          ></div>
+          <div className="responsive-img center-align meImage" />
           <h4
             style={{
               fontWeight: "bold",
@@ -32,27 +20,20 @@ class HomePage extends Component {
             }}
           >
             Htin Wana
-            <h5 style={{}}>Full Stack Developer</h5>
           </h4>
-
-          <div
-            style={{
-              fontSize: "3rem",
-              marginRight: "10px",
-              margin: "auto"
-            }}
-          >
+          <h5>Web Developer</h5>
+          <div className="icons">
             <a
               href="https://github.com/mashiromashi"
               style={{ color: "#D8DEE9" }}
             >
-              <i className="fab fa-github" style={{ padding: "10px" }} />
+              <i className="fab fa-github singleIcon" />
             </a>
             <a
               href="https://www.linkedin.com/in/htinwana"
               style={{ color: "#D8DEE9" }}
             >
-              <i className="fab fa-linkedin" style={{ padding: "10px" }} />
+              <i className="fab fa-linkedin singleIcon" />
             </a>
           </div>
         </div>

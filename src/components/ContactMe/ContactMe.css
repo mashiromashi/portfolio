@@ -8,3 +8,11 @@
 .needHelp {
   font-size: 15px;
 }
+
+.gridDisplay {
+  display: grid;
+}
+.gridItem {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
