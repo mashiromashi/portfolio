@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./MeCard.css"
 
 class SkillCard extends Component {
   state = {};
@@ -19,13 +20,19 @@ class SkillCard extends Component {
             >
               <i className="fab fa-react" style={{ color: "lightblue" }} />
               <i
-                className="fab fa-vuejs"
-                style={{ marginLeft: "5%", color: "#4fc08d" }}
+                className="fab fa-vuejs badges"
+                style={{  color: "#4fc08d" }}
               />
               <i
-                className="fab fa-node-js"
-                style={{ marginLeft: "5%", color: "#3c873a" }}
+                className="fab fa-node-js badges"
+                style={{  color: "#3c873a" }}
               />
+              <img src="https://img.icons8.com/color/90/000000/golang.png"
+                 alt="" className = "badges"
+              />
+             <i class="fab fa-laravel badges"
+                style={{ color:"red"}}
+             />
             </div>
             <p className="right-align">I also know how to use git as well !</p>
           </div>
