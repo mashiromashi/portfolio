@@ -30,9 +30,7 @@ class SkillCard extends Component {
               <img src="https://img.icons8.com/color/90/000000/golang.png"
                  alt="" className = "badges"
               />
-             <i class="fab fa-laravel badges"
-                style={{ color:"red"}}
-             />
+              <img src="/img/typescript.svg" alt="" className="badges" style={{height:"90px", width:"90px"}}/>
             </div>
             <p className="right-align">I also know how to use git as well !</p>
           </div>
